@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Data folder
+data/
+
+# Model files and folder
+models/
+*.keras
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# Logs and generated output
+logs/
+outputs/
+
+# Large ZIP files
+*.zip
+
+# Reports and documents
+*.pdf
+*.docx
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary/generated files
+*.tmp
